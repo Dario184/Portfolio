@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../componenti/Navbar';
-import { BeakerIcon, CogIcon } from '@heroicons/react/outline';
 
 export default function Home() {
     return (

@@ -1,5 +1,4 @@
 import React from 'react';
-import {MenuAlt4Icon} from '@heroicons/react/outline';
 import {useRive,useStateMachineInput} from 'rive-react';
 
 export default function Navbar(){
