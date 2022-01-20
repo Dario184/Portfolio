@@ -1,6 +1,14 @@
 body{
   margin: 0;
 }
+#rive{
+  height: 2rem;
+}
+@media screen and (min-width: 768px) {
+  #rive{
+    display: none;
+  }
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

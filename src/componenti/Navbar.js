@@ -1,11 +1,22 @@
 import React from 'react';
 import {MenuAlt4Icon} from '@heroicons/react/outline';
+import {useRive,useStateMachineInput} from 'rive-react';
 
 export default function Navbar(){
+  const {RiveComponent , rive } = useRive({
+    src: "micon.riv",
+    stateMachines : "Mac",
+    autoplay: "false"
+  });
+  const onClickInput = useStateMachineInput(
+    rive,
+    "Mac",
+    "Trigger 1"
+  );
   return (
     <div className='sticky top-0  z-40'>
-      <nav className=" bg-zinc-900 antialiased items-center flex flex-row justify-between xl:px-60 lg:px-40 md:px-20 px-10 py-8">
-          <MenuAlt4Icon className='text-4xl h-10 text-white md:hidden'/>
+      <nav className="bg-zinc-900 antialiased items-center flex flex-row justify-between xl:px-60 lg:px-40 md:px-20 px-10 py-8">
+      <RiveComponent style={{width:"2.5rem"}} id="rive" onClick={() => onClickInput.fire()} src="micon.riv"/>
           <h1 className='text-white font-black self-center lg:text-4xl md:text-2xl text-4xl '>ma .</h1>
           <ul className="hidden md:flex flex-row flex-shrink font-medium lg:text-xl sm:text-lg items-center lg:gap-20 gap-10 text-neutral-300">
             <li className='hover:text-neutral-100'>Home</li>
