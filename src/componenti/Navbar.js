@@ -19,7 +19,7 @@ export default function Navbar(){
           <h1 className='text-white font-black self-center lg:text-4xl md:text-2xl text-4xl '>ma .</h1>
           <ul className="hidden md:flex flex-row flex-shrink font-medium lg:text-xl sm:text-lg items-center lg:gap-20 gap-10 text-neutral-300">
             <li className='hover:text-neutral-100'>Home</li>
-            <a  href="#servizi" className='hover:text-neutral-100'>Servizi</a>
+            <li className='hover:text-neutral-100'>Servizi</li>
             <li><button type='button' className='transition focus:ring-1 focus:ring-white focus:ring-offset-5  px-5 py-3 shadow text-black/80 bg-white bg-opacity-90 hover:bg-opacity-100 font-bold uppercase rounded-full focus:outline-none '>
               Contattami
               </button></li>

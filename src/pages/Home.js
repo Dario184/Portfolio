@@ -19,13 +19,7 @@ export default function Home() {
                 <img alt="ciao" src='ritratto.png' className='hidden md:block right-0 relative w-1/3 opacity-60 z-20 aspect-square w-50 object-cover'/>
             </div>
             <div className='bg-zinc-200'>
-                
-                
-               
-                <div>
-
-                </div>
-                <h1 id="servizi" className='text-5xl font-extrabold text-zinc-700 py-12'>Servizi</h1>
+                <h1  className='text-5xl text-center font-extrabold text-zinc-700 py-12'>Servizi</h1>
                 <img src="divider.svg" className='h-6 relative mr-auto ml-auto' alt="divider"/>
                 <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols justify-center gap-8 xl:px-40 lg:px-20 md:px-10 px-5 py-24'>
                     <div class="max-w-sm transition hover:scale-105 rounded-md overflow-hidden shadow-lg ">
@@ -60,7 +54,7 @@ export default function Home() {
                 </div>
             </div>
             <div className='bg-zinc-900'>
-                <h1 className='text-5xl font-extrabold text-zinc-200 py-12'>Inziamo</h1>
+                <h1 className='text-5xl font-extrabold text-zinc-200 py-12 text-center'>Iniziamo</h1>
                 <form class="w-full max-w-lg ml-auto mr-auto px-8 pb-12 ">
                     <div class="flex flex-wrap -mx-3 mb-6">
                         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
