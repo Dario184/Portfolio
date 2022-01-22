@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className='scroll-smooth'>
             <Navbar/>
-            <div className='bg-zinc-900 h-100 inline-block md:flex md:flex-row'>
+            <div className='bg-zinc-900 h-100 md:flex md:flex-row'>
                 <div className='w-full z-10 flex flex-col items-center md:items-start gap-8 md:text-left xl:px-40 lg:pl-20 md:pl-10 pl-5 py-24'>
                     <h1 className='text-7xl font-extrabold text-white'>Costruisci nuove esperienze !</h1>
                     <p className='text-lg text-zinc-100'>Ciao, sono <b>Mangili Dario</b>, designer e developer specializzato nella creazione di siti e applicazioni mobile.
