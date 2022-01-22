@@ -29,7 +29,7 @@ export default function Navbar(){
           </ul>
           <div className='md:hidden'></div>
       </nav>
-      <ul id="collapse" className="hidden flex transition delay-1000 ease-in flex-col flex-shrink font-medium md:hidden items-start lg:gap-20 gap-10 text-neutral-300 px-10 pb-8">
+      <ul id="collapse" className="hidden flex transition delay-1000 ease-in flex-col text-lg flex-shrink font-medium md:hidden items-start lg:gap-20 gap-10 text-neutral-300 px-10 pb-8">
             <li className='hover:text-neutral-100'>Home</li>
             <li className='hover:text-neutral-100'>Servizi</li>
             <li className='hover:text-neutral-100'>Contattami</li>
