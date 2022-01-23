@@ -16,7 +16,9 @@ module.exports = {
       '1000':'500px',
     },
     extend: {
-      
+      backgroundImage: {
+        'land': 'https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      }
     },
   },
   plugins: [],
