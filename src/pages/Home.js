@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <div className='bg-zinc-100' id="servizi">
                 
-                <h1  className='text-7xl text-center font-extrabold lg:h-screen  text-zinc-700 pt-20 pb-16'>Servizi</h1>
+                <h1  className='text-7xl text-center font-extrabold text-zinc-700 pt-20 pb-16'>Servizi</h1>
                 <img src="divider.svg" className='h-6 relative mr-auto ml-auto' alt="divider"/>
                 <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols justify-center gap-8 xl:px-40 lg:px-20 md:px-10 px-5 py-24'>
                     <div class="max-w-sm transition bg-white hover:scale-105 rounded-md overflow-hidden shadow-lg ">
