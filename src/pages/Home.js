@@ -12,16 +12,16 @@ export default function Home() {
                         <br/>Creerò per te progetti coinvolgenti e d'impatto da mostrare e condividere.<br/>
                         Cosa stai aspettando? 
                     </p>
-                    <button type='button' className='transition text-2xl w-fit focus:ring-1 focus:ring-white focus:ring-offset-5  px-16 py-3 shadow text-black/80 bg-white bg-opacity-90 hover:bg-opacity-100 font-bold uppercase rounded-full focus:outline-none '>
+                    <a href='#contatti'><button type='button' className='transition text-2xl w-fit focus:ring-1 focus:ring-white focus:ring-offset-5  px-16 py-3 shadow text-black/80 bg-white bg-opacity-90 hover:bg-opacity-100 font-bold uppercase rounded-full focus:outline-none '>
                         Iniziamo !
-                    </button>
+                    </button></a>
                 </div>
                 <img alt="ciao" src='ritratto.png' className='hidden flex-shrink md:block right-0 relative w-1/3 opacity-60 z-20 aspect-square w-50 object-cover'/>
                 
             </div>
             <div className='bg-zinc-100' id="servizi">
                 
-                <h1  className='text-7xl text-center font-extrabold  text-zinc-700 pt-24 pb-20'>Servizi</h1>
+                <h1  className='text-7xl text-center font-extrabold  text-zinc-700 pt-20 pb-16'>Servizi</h1>
                 <img src="divider.svg" className='h-6 relative mr-auto ml-auto' alt="divider"/>
                 <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols justify-center gap-8 xl:px-40 lg:px-20 md:px-10 px-5 py-24'>
                     <div class="max-w-sm transition bg-white hover:scale-105 rounded-md overflow-hidden shadow-lg ">
