@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className='scroll-smooth'>
             <Navbar/>
-            <div className='bg-zinc-900 md:flex md:flex-row h-screen' id="home">
+            <div className='bg-zinc-900 md:flex md:flex-row lg:h-screen' id="home">
                 <div className='w-full z-10 flex flex-col items-center md:items-start gap-16 md:text-left xl:px-40 lg:pl-20 md:pl-10 pl-5 py-24'>
                     <h1 className='lg:text-9xl sm:text-8xl text-6xl font-extrabold text-white flex-shrink'>Costruisci nuove esperienze !</h1>
                     <p className='lg:text-2xl text-lg text-zinc-100'>Ciao, sono <b>Mangili Dario</b>, designer e developer specializzato nella creazione di siti e applicazioni mobile.
@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <div className='bg-zinc-100' id="servizi">
                 
-                <h1  className='text-7xl text-center font-extrabold  text-zinc-700 pt-20 pb-16'>Servizi</h1>
+                <h1  className='text-7xl text-center font-extrabold lg:h-screen  text-zinc-700 pt-20 pb-16'>Servizi</h1>
                 <img src="divider.svg" className='h-6 relative mr-auto ml-auto' alt="divider"/>
                 <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols justify-center gap-8 xl:px-40 lg:px-20 md:px-10 px-5 py-24'>
                     <div class="max-w-sm transition bg-white hover:scale-105 rounded-md overflow-hidden shadow-lg ">
@@ -55,7 +55,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className='bg-zinc-900 h-screen' id="contatti">
+            <div className='bg-zinc-900 lg:h-screen' id="contatti">
                 <h1 className='text-7xl font-extrabold text-zinc-200 pt-24 pb-20 text-center'>Iniziamo</h1>
                 <form class="w-full max-w-lg ml-auto mr-auto px-8 pb-12 shadow">
                     <div class="flex flex-wrap -mx-3 mb-6">
