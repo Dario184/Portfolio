@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "mini-css-extract-plugin": "2.4.5"
+    "mini-css-extract-plugin": "2.4.5",
+    "react-spa-prerender": "^1.0.13"
   }
 }
