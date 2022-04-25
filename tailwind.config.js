@@ -2,7 +2,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
-      'aileron' : ['Aileron']
+      'roboto' : ['roboto']
     },
     borderWidth: {
       DEFAULT: '1px',

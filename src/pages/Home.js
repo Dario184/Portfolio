@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../componenti/Navbar';
 
+
 export default function Home() {
     return (
         <div className='scroll-smooth'>
